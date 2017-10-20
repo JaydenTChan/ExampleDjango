@@ -1,0 +1,18 @@
+// ======== Command Prompt (Terminal)
+
+// === Django
+django-admin startproject
+
+// === Python
+python manage.py runserver
+python manage.py makemigrations <modelName> //Makes changes to database
+python manage.py migrate					//Applies changes to database
+
+// === cd
+cd ..\..
+cd D:\Development\Workspace\testWebsite
+
+// ======== in ipython (or just python)
+<Object>.objects.all()
+<Object>.objects.filter(<variable>=<something>)
+<Object>.objects.filter(<variable>__startswith=<something>)
